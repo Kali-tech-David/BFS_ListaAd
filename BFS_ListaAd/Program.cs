@@ -5,9 +5,6 @@ namespace BFS_ListaAd
     {
         public static void Main(string[] args)
         {
-            ListaEnlazadaDoble lista = new ListaEnlazadaDoble();
-
-
             GrafoBFS g = new GrafoBFS(4);
             g.AgregarArista(0, 1);
             g.AgregarArista(0, 2);
